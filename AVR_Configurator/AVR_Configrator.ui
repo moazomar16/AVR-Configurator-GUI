@@ -1,0 +1,7004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1088</width>
+    <height>834</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1081</width>
+     <height>831</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="dio_tab">
+    <attribute name="title">
+     <string>DIO</string>
+    </attribute>
+    <widget class="QTabWidget" name="tabWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1071</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="portA_tab">
+      <attribute name="title">
+       <string>PORTA</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN0</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN0_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN0_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN0_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN0_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN0_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN0_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN2</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN2_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN2_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_8">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN2_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN2_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN2_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN2_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_10">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN4</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN4_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN4_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN4_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN4_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_13">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN4_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN4_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_14">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN6</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN6_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN6_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_16">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN6_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN6_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_17">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN6_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN6_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN1</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_18">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN1_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN1_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_19">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN1_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN1_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_20">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN1_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN1_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_41">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN3</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_42">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN3_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN3_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_43">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN3_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN3_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_44">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN3_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN3_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_45">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN5</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_46">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN5_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN5_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_47">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN5_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN5_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_48">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN5_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN5_OUT_LOW_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_49">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN7</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_50">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN7_INPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN7_OUTPUT_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_51">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN7_IN_PULL_UP_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTA_PIN7_IN_PULL_DOWN_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_52">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTA_PIN7_OUT_HIGH_radioButton_">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_78">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="portB_tab">
+      <attribute name="title">
+       <string>PORTB</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_113">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN3</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_114">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN3_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN3_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_115">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN3_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN3_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_116">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN3_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN3_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_105">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN1</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_106">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN1_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN1_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_107">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN1_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN1_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_108">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN1_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN1_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_97">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN2</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_98">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN2_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN2_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_99">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN2_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN2_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_100">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN2_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN2_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_101">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN5</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_102">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN5_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN5_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_103">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN5_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN5_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_104">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN5_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN5_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_89">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN4</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_90">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN4_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN4_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_91">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN4_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN4_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_92">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN4_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN4_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_85">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN7</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_86">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN7_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN7_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_87">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN7_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN7_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_88">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN7_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN7_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_109">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN6</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_110">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN6_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN6_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_111">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN6_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN6_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_112">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN6_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN6_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_93">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN0</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_94">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN0_INPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN0_OUTPUT_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_95">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN0_IN_PULL_UP_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN0_IN_PULL_DOWN_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_96">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTB_PIN0_OUT_HIGH_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTB_PIN0_OUT_LOW_radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="portC_tab">
+      <attribute name="title">
+       <string>PORTC</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_225">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN3</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_226">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN3_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN3_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_227">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN3_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN3_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_228">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN3_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN3_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_205">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN0</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_206">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN0_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN0_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_207">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN0_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN0_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_208">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN0_OUT_HIGH_radioButton">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN0_OUT_LOW_radioButton">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_117">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN7</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_121">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN7_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN7_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_125">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN7_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN7_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_129">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN7_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN7_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_213">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN5</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_214">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN5_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN5_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_215">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN5_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN5_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_216">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN5_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN5_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_209">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN2</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_210">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN2_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN2_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_211">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN2_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN2_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_212">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN2_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN2_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_133">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN4</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_137">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN4_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN4_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_141">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN4_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN4_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_145">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN4_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN4_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_221">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN6</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_222">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN6_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN6_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_223">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN6_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN6_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_224">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN6_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN6_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_217">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN1</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_218">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN1_INPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN1_OUTPUT_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_219">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN1_IN_PULL_UP_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN1_IN_PULL_DOWN_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_220">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTC_PIN1_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTC_PIN1_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="portD_tab">
+      <attribute name="title">
+       <string>PORTD</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_229">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN0</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_230">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN0_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN0_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_231">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN0_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN0_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_232">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN0_OUT_HIGH_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN0_OUT_LOW_radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_149">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN7</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_153">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN7_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN7_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_157">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN7_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN7_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_161">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN7_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN7_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_233">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN5</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_234">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN5_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN5_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_235">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN5_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN5_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_236">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN5_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN5_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_237">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN2</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_238">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN2_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN2_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_239">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN2_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN2_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_240">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN2_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN2_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_165">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>390</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN4</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_169">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN4_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN4_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_173">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN4_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN4_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_177">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN4_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN4_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_241">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>570</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN6</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_242">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN6_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN6_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_243">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN6_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN6_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_244">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN6_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN6_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_245">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>30</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN1</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_246">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN1_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN1_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_247">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN1_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN1_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_248">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN1_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN1_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_249">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>210</y>
+         <width>471</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>PIN3</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_250">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>141</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Direction</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN3_INPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>INPUT</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN3_OUTPUT_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>OUTPUT</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_251">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Input Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN3_IN_PULL_UP_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL UP</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN3_IN_PULL_DOWN_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PULL DOWN</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_252">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output Configration</string>
+        </property>
+        <widget class="QRadioButton" name="PORTD_PIN3_OUT_HIGH_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>HIGH</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="PORTD_PIN3_OUT_LOW_radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>95</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>LOW</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="generate_tab">
+      <attribute name="title">
+       <string>GENERATE</string>
+      </attribute>
+      <widget class="QPlainTextEdit" name="path_text">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>100</y>
+         <width>891</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PATH</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="generate_PB">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>220</y>
+         <width>171</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>GENERATE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="load_PB">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>220</y>
+         <width>171</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>LOAD</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="timer_tab">
+    <attribute name="title">
+     <string>TIMER</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>PORTD_PIN0_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_231</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN0_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_232</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN0_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_231</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN0_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_232</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN1_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_247</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN1_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_248</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN1_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_247</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN1_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_248</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN2_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_239</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN2_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_240</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN2_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_239</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN2_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_240</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN3_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_251</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN3_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_252</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN3_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_251</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN3_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_252</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN4_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_173</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>885</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN4_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_177</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN4_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_173</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>885</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN4_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_177</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN5_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_235</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN5_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_236</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN5_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_235</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN5_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_236</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN6_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_243</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN6_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_244</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN5_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_216</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN0_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN7_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_52</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN2_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_99</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN6_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_223</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN5_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_104</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN6_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_112</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN0_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN2_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_212</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN3_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_116</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN4_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_141</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>795</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN4_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_145</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1049</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN2_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_211</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN0_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN6_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_16</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN6_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_17</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN7_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_129</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN1_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_20</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN1_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_107</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN7_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_52</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN5_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_48</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN6_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_111</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN5_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_47</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN3_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_115</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN4_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_12</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN0_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_96</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN1_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_219</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN4_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_91</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN0_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_207</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN5_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_216</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN7_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_125</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN3_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_116</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN3_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_227</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN5_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_103</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN3_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_228</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN5_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_47</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN6_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_224</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN0_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN5_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_215</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN1_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_108</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN1_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_219</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN6_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_224</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN4_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_91</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN1_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_19</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN0_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_95</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN7_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_88</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN0_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_208</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN7_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_51</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN3_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_43</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN0_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_96</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN7_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_51</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN6_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_111</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN5_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_104</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN6_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_16</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN2_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_99</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN1_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_107</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN3_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_44</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN2_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_100</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN4_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_141</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>795</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN7_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_87</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN2_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_9</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN1_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_220</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN3_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_44</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN7_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_87</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN5_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_48</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN7_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_129</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN4_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_145</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1049</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN4_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_13</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN1_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_108</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN6_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_223</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN5_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_215</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN2_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_211</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN6_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_112</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN4_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_92</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN0_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_207</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN2_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_9</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN0_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_208</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN2_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_8</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN4_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_12</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN1_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_220</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN5_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_103</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN1_INPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_20</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN4_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_13</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN2_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_8</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN7_OUTPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_88</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN1_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_19</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN2_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_100</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN3_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_228</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN0_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_95</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN6_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_17</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN7_OUTPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_125</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN4_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_92</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTA_PIN3_OUTPUT_radioButton_</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_43</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTB_PIN3_INPUT_radioButton_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_115</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN3_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_227</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTC_PIN2_INPUT_radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_212</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN6_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_243</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>690</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN6_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_244</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>765</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN7_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_157</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>345</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN7_INPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_161</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>719</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN7_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_157</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>345</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PORTD_PIN7_OUTPUT_radioButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>groupBox_161</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>generate_PB</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>699</x>
+     <y>320</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>load_PB</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>320</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
